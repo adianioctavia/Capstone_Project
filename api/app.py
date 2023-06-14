@@ -62,11 +62,11 @@ def recommend_hairstyles(face_shape):
     hairstyles_dir = "C:\\Users\\ayuad\\Documents\\ADIANI\MSIB Bangkit 2023\\api\\recommendation" # Path to the directory containing hairstyle models
 
     subdirectories = {
-        "Oblong": ["Bergelombang", "Bob", "Layer", "Poni Samping"],
-        "heart": ["Bob", "Poni Samping", "Updo", "Texturizing"],
-        "Round": ["Bob Panjang", "Layer", "Poni Samping"],
-        "Oval": ["Lurus", "Pixie", "Poni"],
-        "Square": ["Half Knot", "Side Parted", "Side Parted Chignon"]
+        "Oblong": ["Bangs", "Blunt", "Bob", "Curly"],
+        "Heart": ["Bangs", "Bob", "Lob", "Pixie"],
+        "Round": ["Bangs", "Layered", "Lob", "Pixie"],
+        "Oval": ["Bob", "Layered", "Long"],
+        "Square": ["Bangs", "Deep"]b
     }
 
     recommended_hairstyles = []
